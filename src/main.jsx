@@ -18,7 +18,7 @@ const router = createBrowserRouter([
         element: <About/>
       },
       {
-        path: "/vite-portfolio/Projects",
+        path: "/vite-portfolio/projects",
         element: <Projects/>
       },
       {
