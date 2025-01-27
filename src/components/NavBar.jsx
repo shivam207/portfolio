@@ -80,25 +80,25 @@ export default function NavBar() {
             id="mobile-menu-2"
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-              <NavLink to="/" onClick={toggleOpen}>
+              <NavLink to="/vite-portfolio/" onClick={toggleOpen}>
                 Home
               </NavLink>
-              <NavLink to="/about" onClick={toggleOpen}>
+              <NavLink to="/vite-portfolio/about" onClick={toggleOpen}>
                 About
               </NavLink>
-              <NavLink to="/projects" onClick={toggleOpen}>
+              <NavLink to="/vite-portfolio/projects" onClick={toggleOpen}>
                 Projects
               </NavLink>
-              <NavLink to="/skills" onClick={toggleOpen}>
+              <NavLink to="/vite-portfolio/skills" onClick={toggleOpen}>
                 Skills
               </NavLink>
-              <NavLink to="/experience" onClick={toggleOpen}>
+              <NavLink to="/vite-portfolio/experience" onClick={toggleOpen}>
                 Experience
               </NavLink>
-              <NavLink to="/education" onClick={toggleOpen}>
+              <NavLink to="/vite-portfolio/education" onClick={toggleOpen}>
                 Education
               </NavLink>
-              <NavLink to="/contact" onClick={toggleOpen}>
+              <NavLink to="/vite-portfolio/contact" onClick={toggleOpen}>
                 Contact Me
               </NavLink>
               {/* <li>
