@@ -28,7 +28,7 @@ export default function NavBar() {
     <header>
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-darkDesert fixed top-0 w-full z-50">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <Link to="/vite-portfolio/" className="flex items-center">
+          <Link to="/portfolio/" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
               Shivam Agarwal
             </span>
@@ -75,13 +75,13 @@ export default function NavBar() {
             id="mobile-menu-2"
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
-              <NavLink to="/vite-portfolio/" onClick={toggleOpen}>
+              <NavLink to="/portfolio/" onClick={toggleOpen}>
                 Home
               </NavLink>
-              <NavLink to="/vite-portfolio/projects" onClick={toggleOpen}>
+              <NavLink to="/portfolio/projects" onClick={toggleOpen}>
                 Projects
               </NavLink>
-              <NavLink to="/vite-portfolio/experience" onClick={toggleOpen}>
+              <NavLink to="/portfolio/experience" onClick={toggleOpen}>
                 Experience
               </NavLink>
             </ul>

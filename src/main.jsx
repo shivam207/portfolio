@@ -6,19 +6,19 @@ import {Home, Projects, Experience } from "./components";
 
 const router = createBrowserRouter([
   {
-    path: "/vite-portfolio/",
+    path: "/portfolio/",
     element: <App/>,
     children: [
       {
-        path: "/vite-portfolio/",
+        path: "/portfolio/",
         element: <Home/>
       },
       {
-        path: "/vite-portfolio/projects",
+        path: "/portfolio/projects",
         element: <Projects/>
       },
       {
-        path: "/vite-portfolio/experience",
+        path: "/portfolio/experience",
         element: <Experience/>
       },
     ]
