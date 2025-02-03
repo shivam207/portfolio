@@ -5,12 +5,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import {
   NavBar,
   Home,
-  About,
   Projects,
-  Skills,
   Experience,
-  Education,
-  ContactMe,
   Footer,
   NotFound,
 } from '../src/components/index';
@@ -23,7 +19,7 @@ function App() {
     <>
       <Analytics />
       <ToastContainer />
-        <div className="bg-lightDesert">
+        <div className="bg-lightBackground">
           <NavBar />
             {/* <Link to="/vite-portfolio/">Home</Link>  */}
             {/* <Link to="/vite-portfolio/about">About</Link>

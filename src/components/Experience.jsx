@@ -15,7 +15,7 @@ const JobExperienceCard = ({ experience, onClick }) => (
       <img
         src={experience.img}
         alt={experience.title}
-        className="h-full w-full rounded-full block "
+        className="w-full h-full rounded-full block bg-white object-contain"
       />
     }
     contentStyle={{ position: "relative" }}
@@ -100,24 +100,30 @@ const Experience = () => {
         ))}
       </VerticalTimeline>
 
-      <h2 className="text-4xl font-bold text-darkDesert mt-6 mb-4 text-center">
-        Non Dev Experience
-      </h2>
-      <VerticalTimeline>
-        {nonDevExperiences.map((experience) => (
-          <NonDevExperienceCard
-            key={experience.id}
-            experience={experience}
-            onClick={() => setModalContent(experience)}
-          />
-        ))}
-      </VerticalTimeline>
+      {nonDevExperiences.length > 0 && (
+        <>
+        <h2 className="text-4xl font-bold text-darkDesert mt-6 mb-4 text-center">
+          Non Dev Experience
+        </h2>
+        <VerticalTimeline>
+          {nonDevExperiences.map((experience) => (
+            <NonDevExperienceCard
+              key={experience.id}
+              experience={experience}
+              onClick={() => setModalContent(experience)}
+            />
+          ))}
+        </VerticalTimeline>
+        </>
+      )
+      }
 
       <Modal
         isOpen={!!modalContent}
         onRequestClose={() => setModalContent(null)}
         className="fixed inset-0 z-50 flex items-center justify-center p-6 "
         overlayClassName="bg-black bg-opacity-50 transition-opacity duration-500 ease-out"
+        shouldFocusAfterRender={true}
       >
         <div className="bg-white p-6 rounded-lg shadow-2xl transform transition-transform duration-500 ease-out space-y-4 md:space-y-0 max-w-md max-h-[80vh] overflow-y-auto">
           <button

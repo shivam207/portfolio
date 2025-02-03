@@ -1,8 +1,8 @@
-export const GITHUB_URL = "https://github.com/missatrox44";
-export const LINKEDIN_URL = "https://www.linkedin.com/in/sara-baqla/";
-export const PERSONAL_WEBSITE_URL = "https://www.sarabaqla.dev/";
+export const GITHUB_URL = "https://github.com/shivam207";
+export const LINKEDIN_URL = "https://www.linkedin.com/in/shivam207/";
+export const PERSONAL_WEBSITE_URL = "https://shivam207.github.io/";
 export const CURRENT_YEAR = new Date().getFullYear().toString();
-export const YOUTUBE_URL = "https://www.youtube.com/playlist?list=PLwgb5FGvcCf69CJDSQYxXI-T_DAbG4b41";
-export const RESUME_URL = "baqla_resume.pdf";
-export const BLOG_URL = "https://ibginstitute.com/blog/";
-export const PERPLEXITY_URL ="https://perplexity.ai/pro?referral_code=ATCI7KON";
+export const YOUTUBE_URL = "";
+export const RESUME_URL = "shivam_resume.pdf";
+export const BLOG_URL = "";
+export const PERPLEXITY_URL ="";

@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import {Home, About, Projects, Skills, Experience, Education, ContactMe } from "./components";
+import {Home, Projects, Experience } from "./components";
 
 const router = createBrowserRouter([
   {
@@ -14,28 +14,12 @@ const router = createBrowserRouter([
         element: <Home/>
       },
       {
-        path: "/vite-portfolio/about",
-        element: <About/>
-      },
-      {
         path: "/vite-portfolio/projects",
         element: <Projects/>
       },
       {
-        path: "/vite-portfolio/skills",
-        element: <Skills/>
-      },
-      {
         path: "/vite-portfolio/experience",
         element: <Experience/>
-      },
-      {
-        path: "/vite-portfolio/education",
-        element: <Education/>
-      },
-      {
-        path: "/vite-portfolio/contact",
-        element: <ContactMe/>
       },
     ]
   }

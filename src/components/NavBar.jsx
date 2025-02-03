@@ -28,14 +28,9 @@ export default function NavBar() {
     <header>
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-darkDesert fixed top-0 w-full z-50">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <Link to="/" className="flex items-center">
-            <img
-              src="/dev-icon.svg"
-              className="mr-3 h-6 sm:h-9"
-              alt="Sara Dev Logo"
-            />
+          <Link to="/vite-portfolio/" className="flex items-center">
             <span className="self-center text-xl font-semibold whitespace-nowrap dark:text-white">
-              sarabaqla.dev
+              Shivam Agarwal
             </span>
           </Link>
           <div className="flex items-center lg:order-2">
@@ -76,36 +71,19 @@ export default function NavBar() {
           <div
             className={`${
               isOpen ? "block" : "hidden"
-            } justify-between items-center w-full lg:flex lg:w-auto lg:order-1`}
+            } justify-between items-center w-full lg:flex lg:w-auto lg:order-1 mb-30`}
             id="mobile-menu-2"
           >
             <ul className="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
               <NavLink to="/vite-portfolio/" onClick={toggleOpen}>
                 Home
               </NavLink>
-              <NavLink to="/vite-portfolio/about" onClick={toggleOpen}>
-                About
-              </NavLink>
               <NavLink to="/vite-portfolio/projects" onClick={toggleOpen}>
                 Projects
-              </NavLink>
-              <NavLink to="/vite-portfolio/skills" onClick={toggleOpen}>
-                Skills
               </NavLink>
               <NavLink to="/vite-portfolio/experience" onClick={toggleOpen}>
                 Experience
               </NavLink>
-              <NavLink to="/vite-portfolio/education" onClick={toggleOpen}>
-                Education
-              </NavLink>
-              <NavLink to="/vite-portfolio/contact" onClick={toggleOpen}>
-                Contact Me
-              </NavLink>
-              {/* <li>
-                <a href="/baqla_resume.pdf" className={linkClasses}>
-                  Resume
-                </a>
-              </li> */}
             </ul>
           </div>
         </div>

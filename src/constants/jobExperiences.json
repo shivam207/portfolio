@@ -1,26 +1,42 @@
 [
   {
     "id": "0",
-    "title": "Full Stack Developer",
-    "company": "Reach Creative",
-    "description": "In my current position, I specialize in the development of components and pages for cutting-edge Next.js web applications. I leverage sophisticated CMS platforms, including Prismic and Sanity, to elevate web development projects, ensuring they are both dynamic and content-rich. My role involves close collaboration with design teams, focusing on the seamless integration of visual concepts with web functionalities. This synergy between design and development guarantees that the final products not only meet but exceed user expectations, providing an intuitive and engaging user experience.",
-    "timePeriod": "January 2024 - Present",
-    "img": "images/reach.jpg"
+    "title": "Computer Vision Engineer",
+    "company": "Infiswift Technologies",
+    "description": "I developed AI software for a robotic arm that executes pick-and-place tasks based on voice commands, integrating long-range and short-range depth cameras. The system leveraged multiple machine learning models, including Speech-to-Text, Entity Extraction, and Vision Models for detecting and segmenting open-set objects. Additionally, I built an application to digitize Work Order and CAD Design drawing PDFs, converting them into structured CSV outputs with punch locations for CNC machines, reducing manual effort by 90% using OCR, OpenCV, and Python. I also designed and deployed a hybrid recommendation engine for an oilfield auction platform utilizing FastAPI and Cosine Similarity.",
+    "timePeriod": "June 2022 - Present",
+    "img": "images/infiswift.png"
   },
   {
     "id": "1",
-    "title": "Junior Software Developer",
-    "company": "IBG Software",
-    "description": "At IBG Software, I led full-stack development in an Agile environment, focusing on React and React Native applications powered by TypeScript, Node.js, and Express.js. My work significantly enhanced project efficiency and execution. My strategic use of MongoDB and Firebase Firestore boosted backend performance. I redefined user experiences by integrating Firebase Authentication with Redux Saga, improving both security and usability. Through Cypress, I implemented end-to-end testing protocols, ensuring software quality. I developed scalable RESTful APIs to improve system performance and meticulously documented processes on Confluence, enhancing team collaboration. Engaging with stakeholders, I aligned products with business objectives, increasing satisfaction. My management of project tasks via Jira facilitated collaboration and ensured the timely completion of milestones.",
-    "timePeriod": "November 2022 - January 2024",
-    "img": "images/ibg.png"
+    "title": "Applied AI Consultant",
+    "company": "Accenture",
+    "description": "I applied deep learning models, including RNN, LSTM, and Bi-LSTM, to identify drugs and their adverse events in clinical text. In bioinformatics, I developed algorithms for automatic alignment of protein peptides from Mass Spectrometry and clustering peptides to automate manual scientific tasks using Pythoin. Additionally, I built a web application to capture recommendations and optimize the cost of clinical trials using Python, React, AWS Lambda, and REST API. Another web application I developed allowed users to add panels and their corresponding antibodies, utilizing the same technology stack. For health insurance claims and call data, I conducted descriptive analytics on large datasets to analyze claims leading to customer calls, leveraging SQL and PySpark. Furthermore, I automated SharePoint REST API operations by developing a Python library for seamless CRUD interactions with SharePoint lists and folders.",
+    "timePeriod": "June 2019 - May 2022",
+    "img": "images/accenture.png"
   },
   {
     "id": "2",
-    "title": "Software Developer",
-    "company": "Chingu",
-    "description": "During Chingu's Voyage 41, our team developed an accessible travel planning app focused on accessibility. In a separate week-long sprint, my partner and I built a Pomodoro Clock application, enhancing collaboration, time management, and React skills through Agile methods.",
-    "timePeriod": "October 2022 - November 2022 & March 2023",
-    "img": "images/chingu.png"
+    "title": "Software Engineer Intern",
+    "company": "Visa",
+    "description": "I developed a proof of concept web application that enables users to conduct international transactions with transaction data securely stored on a blockchain. This blockchain was maintained using Hyperledger Fabric, ensuring transparency, immutability, and a decentralized ledger for every transaction. The application streamlined cross-border payments, providing real-time updates and enhanced security by utilizing the robust capabilities of blockchain technology, while Hyperledger Fabric's permissioned network facilitated secure and efficient transaction processing. This innovation aimed at reducing the complexities and costs associated with international financial transfers.",
+    "timePeriod": "May 2018 - July 2018",
+    "img": "images/visa.png"
+  },
+  {
+    "id": "3",
+    "title": "Machine Learning Research Intern",
+    "company": "University of Alberta Canada",
+    "description": "I worked on identifying regions within spatial-temporal data for a Steam Assisted Gravity Drainage (SAGD) reservoir, applying advanced clustering algorithms to uncover meaningful patterns and insights. By utilizing K-Means, DBSCAN, and Hierarchical Clustering, I was able to segment the reservoir into distinct regions based on both spatial and temporal characteristics. These algorithms allowed for the identification of regions with unique behaviors, such as varying steam injection rates, production efficiencies, and fluid flow dynamics. This data-driven approach helped in optimizing the operation of the SAGD process by enhancing decision-making for resource management and operational efficiency, ultimately leading to improved reservoir performance and better predictive models for future operations.",
+    "timePeriod": "May 2017 - July 2017",
+    "img": "images/uoa.webp"
+  },
+  {
+    "id": "4",
+    "title": "Software Engineer Intern",
+    "company": "National Digital Library",
+    "description": "I integrated the IEEE Xplore Digital Library, comprising 22GB of data and 3.5 million files, into the National Digital Library (NDL), automating the extraction and management of volume-issue-article relationships. This integration streamlined the organization and retrieval of academic content from the digital library. Additionally, I developed a generic XML-to-CSV parser using Python to facilitate the analysis of document metadata. This parser enabled efficient processing and conversion of XML metadata into structured CSV formats, enhancing the ability to perform data analysis and facilitating easier access to key document information for research and development purposes.",
+    "timePeriod": "May 2016 - July 2016",
+    "img": "images/ndl.png"
   }
 ]
