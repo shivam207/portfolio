@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import {Home, Projects, Experience } from "./components";
+import {Home, Projects, Experience, NotFound } from "./components";
 
 const router = createBrowserRouter([
   {
@@ -21,6 +21,10 @@ const router = createBrowserRouter([
         path: "/portfolio/experience",
         element: <Experience/>
       },
+      {
+        path: "*",
+        element: <NotFound></NotFound>
+      }
     ]
   }
 ])

@@ -54,7 +54,9 @@ export default function Home() {
           </div>
           <div>
             <h1 className="text-4xl text-lightPrimaryText mb-4 ">About Me</h1>  
-            I'm a software engineer specializing in the intersection of open source software and artificial intelligence. I'm currently at Hugging Face, where I spend most of my time developing Gradio, an open-source python package for building AI-powered web applications with little code.
+            I am a software engineer with expertise in deep learning, computer vision, and system design. I'm currently at <b>Infiswift Technologies</b>, where I develop AI-powered robotic systems that integrate vision, speech, and automation.
+            <br></br>
+            With a strong foundation in Mathematics and Computing from <b>IIT Kharagpur</b>, I specialize at the intersection of AI, robotics, and software engineering. My experience spans computer vision, NLP, and recommendation engines, having built and deployed solutions in industrial automation, healthcare.
           </div>
         </div>
       <div>

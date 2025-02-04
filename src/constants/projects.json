@@ -3,7 +3,7 @@
     "id": "1",
     "title": "PlotExt",
     "description": "Developed a software using Python which can take as input a PDF and detect all the plots/graphs in it and converts them into into Tabular data. It involves various modules like Graph Detection, Scale Detection, Legend Detection and converting the data from image to table.",
-    "thumbnail": "projects/plotext.png",
+    "thumbnail": "images/plotext.png",
     "deployed": "https://github.com/shivam207/plotExt/blob/master/doc/Team6.pdf",
     "github": "https://github.com/shivam207/plotExt",
     "date": "Jan 2016"
@@ -11,8 +11,8 @@
   {
     "id": "2",
     "title": "English to SQL Query",
-    "description": "Developed a web application which can convert natural language to SQL query. I used OpenAI API to convert english text to dql query, React for frontend and Express for backend.",
-    "thumbnail": "projects/english_to_sql.png",
+    "description": "Developed a web application which can convert natural language to SQL query. I used OpenAI API to convert english text to sql query, React for frontend and Express for backend.",
+    "thumbnail": "images/english_to_sql.png",
     "deployed": "https://www.youtube.com/watch?v=H5AGq8qvrNc&ab_channel=ShivamAgarwal",
     "github": "https://github.com/shivam207/openai-api-sql",
     "date": "Jan 2016"
