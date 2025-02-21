@@ -16,5 +16,15 @@
     "deployed": "https://www.youtube.com/watch?v=H5AGq8qvrNc&ab_channel=ShivamAgarwal",
     "github": "https://github.com/shivam207/openai-api-sql",
     "date": "Jan 2016"
+  },
+  {
+    "id": "3",
+    "title": "Real-Time Object Detection",
+    "description": "This project is a web-based application that utilizes real-time object detection to identify and label objects within an image or video stream. It is built using Next.js, ONNXRuntime, YOLOv7. The app runs fully in the browser.",
+    "thumbnail": "images/rtod.png",
+    "deployed": "https://rtod-web-app.vercel.app/",
+    "github": "https://github.com/shivam207/rtod",
+    "date": "Feb 2025"
   }
+
 ]
